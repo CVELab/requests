@@ -13,7 +13,8 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/tidwall/gjson v1.14.1
 	golang.org/x/net v0.0.0-20220531201128-c960675eff93
-	golang.org/x/text v0.3.7
+	golang.org/x/term v0.0.0-20220722155259-a9ba230a4035
+	golang.org/x/text v0.3.8
 )
 
 require (
@@ -28,5 +29,4 @@ require (
 	github.com/tidwall/pretty v1.2.0 // indirect
 	golang.org/x/crypto v0.0.0-20201016220609-9e8e0b390897 // indirect
 	golang.org/x/sys v0.0.0-20220829200755-d48e67d00261 // indirect
-	golang.org/x/term v0.0.0-20220722155259-a9ba230a4035 // indirect
 )
