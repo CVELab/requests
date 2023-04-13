@@ -42,9 +42,9 @@ type HooksDict map[string][]Hook
 ```go
 import (
     "fmt"
-    "github.com/sari3l/requests"
-    "github.com/sari3l/requests/ext"
-    "github.com/sari3l/requests/types"
+    "github.com/cvelab/requests"
+    "github.com/cvelab/requests/ext"
+    "github.com/cvelab/requests/types"
 )
 
 func main() {

@@ -29,10 +29,10 @@ type Ext func(ep *ExtensionPackage)
 为了使用可选参数，需要在文件中
 
 ```go
-import "github.com/sari3l/requests/ext"
+import "github.com/cvelab/requests/ext"
 ```
 
-另外为了方便处理数据，对以下数据类型取了别名，可通过引入`github.com/sari3l/requests/types`调用
+另外为了方便处理数据，对以下数据类型取了别名，可通过引入`github.com/cvelab/requests/types`调用
 
 ```go
 type Dict map[string]string
@@ -171,6 +171,7 @@ func printHeaders(response any) (error, any) {
     return nil, response
 }
 ```
+
 ## ext.Json(types.Json)
 
 > Body数据为Json内容
@@ -208,7 +209,7 @@ resp = requests.Get("https://httpbin.org/get?key=%%25")
 fmt.Println(resp.Json())
 ```
 
-## ext.ProcessOptions(...processbar.Option) 
+## ext.ProcessOptions(...processbar.Option)
 
 ```go
 resp := requests.Get(url, ext.ProcessOptions(
@@ -222,7 +223,6 @@ resp := requests.Get(url, ext.ProcessOptions(
 ## ext.Protocol(string)
 
 设置使用协议`HTTP/1.1`或`HTTP/2`，可以只输入版本简化如`1.1`或`2`
-
 
 ## ext.Proxy(string)
 

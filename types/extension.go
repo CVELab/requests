@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/sari3l/requests/internal/processbar"
+	"github.com/cvelab/requests/internal/processbar"
 	"io"
 )
 

@@ -1,4 +1,4 @@
-module github.com/sari3l/requests
+module github.com/cvelab/requests
 
 go 1.18
 

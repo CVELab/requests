@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"fmt"
 	"github.com/chromedp/chromedp"
-	"github.com/sari3l/requests"
+	"github.com/cvelab/requests"
 	"html/template"
 	"io/ioutil"
 	"time"

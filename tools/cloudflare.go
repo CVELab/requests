@@ -1,8 +1,8 @@
 package tools
 
 import (
-	"github.com/sari3l/requests"
-	"github.com/sari3l/requests/types"
+	"github.com/cvelab/requests"
+	"github.com/cvelab/requests/types"
 	"net/url"
 	"strings"
 )

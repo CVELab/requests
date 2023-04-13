@@ -7,7 +7,7 @@ import (
 	"github.com/chromedp/cdproto/page"
 	"github.com/chromedp/chromedp"
 	"github.com/pkg/errors"
-	"github.com/sari3l/requests/internal/parser"
+	"github.com/cvelab/requests/internal/parser"
 	"github.com/tidwall/gjson"
 	"golang.org/x/net/html"
 	"log"

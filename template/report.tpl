@@ -7,7 +7,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@tabler/core@1.0.0-beta11/dist/css/tabler.min.css"
     />
-    <meta name="github:user" content="@sari3l"/>
+    <meta name="github:user" content="@cvelab"/>
   </head>
   <body>
     <div class="page-header">
@@ -16,8 +16,8 @@
           <div class="col">
             <div style="font-size: xx-small">
               Reported By:
-              <a href="https://github.com/sari3l/requests"
-                >https://github.com/sari3l/requests</a
+              <a href="https://github.com/cvelab/requests"
+                >https://github.com/cvelab/requests</a
               >
             </div>
             <div class="page-title">Overview</div>

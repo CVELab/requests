@@ -3,8 +3,8 @@ package tools
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/sari3l/requests"
-	"github.com/sari3l/requests/types"
+	"github.com/cvelab/requests"
+	"github.com/cvelab/requests/types"
 	"golang.org/x/text/encoding/simplifiedchinese"
 	"golang.org/x/text/transform"
 	"io/ioutil"

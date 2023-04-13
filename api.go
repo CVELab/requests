@@ -1,7 +1,7 @@
 package requests
 
 import (
-	"github.com/sari3l/requests/types"
+	"github.com/cvelab/requests/types"
 )
 
 func Get(url string, ext ...types.Ext) *Response {

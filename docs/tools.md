@@ -49,7 +49,7 @@ fmt.Println(resp.Html)
 ### func ConvertGbkToUtf8(str string) string
 
 ### func ConvertUtf8ToGbk(str string) string
- 
+
 ### func CovertStructToJson(obj any) map[string]any
 
 将结构体转换为`map[string]any`格式数据，需要注释有`json:"xxxx"`
@@ -59,7 +59,7 @@ type testStruct struct {
     Name string `json:"name,omitempty"`
     Value string `json:"value,omitempty"`
 }
-test := testStruct{Name: "sari3l"}
+test := testStruct{Name: "cvelab"}
 json := tools.CovertStructToJson(test)
 resp := requests.Post("http://httpbin.org/post", ext.Json(json))
 fmt.Println(resp.Json())
@@ -74,7 +74,7 @@ type testStruct struct {
     Name string `dict:"name,omitempty"`
     Value string `dict:"value,omitempty"`
 }
-test := testStruct{Name: "sari3l"}
+test := testStruct{Name: "cvelab"}
 params := tools.ConvertStructToDict(test)
 resp := requests.Get("http://httpbin.org/get", ext.Params(params))
 fmt.Println(resp.Json())
@@ -122,8 +122,8 @@ fmt.Println(resp.Json())
 
 ## Report
 
-### func ReportHTTPResponse(response *requests.Response, savePath *string) string
+### func ReportHTTPResponse(response *requests.Response, savePath*string) string
 
 输出请求报告，返回值为文件路径
 
-<img src="https://raw.githubusercontent.com/sari3l/requests/main/docs/static/report.png" alt="Report Demo"/>
+<img src="https://raw.githubusercontent.com/cvelab/requests/main/docs/static/report.png" alt="Report Demo"/>

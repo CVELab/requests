@@ -4,7 +4,7 @@ import (
 	"bytes"
 	eJson "encoding/json"
 	"errors"
-	"github.com/sari3l/requests/types"
+	"github.com/cvelab/requests/types"
 	"io"
 	"io/ioutil"
 	"mime/multipart"

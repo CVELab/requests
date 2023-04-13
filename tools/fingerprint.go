@@ -2,7 +2,7 @@ package tools
 
 import (
 	"github.com/CUCyber/ja3transport"
-	"github.com/sari3l/requests/types"
+	"github.com/cvelab/requests/types"
 	"net/http"
 	"reflect"
 	"strconv"

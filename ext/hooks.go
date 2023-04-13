@@ -1,6 +1,6 @@
 package ext
 
-import "github.com/sari3l/requests/types"
+import "github.com/cvelab/requests/types"
 
 var defaultHooksList = []string{"request", "client", "response"}
 

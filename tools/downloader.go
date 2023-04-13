@@ -2,7 +2,7 @@ package tools
 
 import (
 	"fmt"
-	"github.com/sari3l/requests"
+	"github.com/cvelab/requests"
 )
 
 func Download(session *requests.Session, rawUrl *string, savePath *string) {

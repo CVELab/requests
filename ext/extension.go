@@ -1,8 +1,8 @@
 package ext
 
 import (
-	"github.com/sari3l/requests/internal/processbar"
-	"github.com/sari3l/requests/types"
+	"github.com/cvelab/requests/internal/processbar"
+	"github.com/cvelab/requests/types"
 	"io"
 )
 

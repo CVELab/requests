@@ -1,7 +1,7 @@
 package tools
 
 import (
-	"github.com/sari3l/requests"
+	"github.com/cvelab/requests"
 	"math/rand"
 	"net"
 	"runtime"

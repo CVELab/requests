@@ -16,7 +16,7 @@ var linkRegexCompiled = regexp.MustCompile(`(?:"|')(((?:[a-zA-Z]{1,10}://|//)[^"
 
 func defaultHeaders() *http.Header {
 	headers := &http.Header{}
-	headers.Add("User-Agent", fmt.Sprintf("sari3l/requests %s", Version))
+	headers.Add("User-Agent", fmt.Sprintf("cvelab/requests %s", Version))
 	return headers
 }
 

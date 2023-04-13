@@ -5,9 +5,9 @@
 ```go
 import (
     "fmt"
-    "github.com/sari3l/requests"
-    "github.com/sari3l/requests/ext"
-    "github.com/sari3l/requests/types"
+    "github.com/cvelab/requests"
+    "github.com/cvelab/requests/ext"
+    "github.com/cvelab/requests/types"
 )
 
 func main() {
@@ -38,7 +38,7 @@ func main() {
 import (
     "fmt"
     "github.com/CUCyber/ja3transport"
-    "github.com/sari3l/requests"
+    "github.com/cvelab/requests"
 )
 
 func main() {
@@ -59,9 +59,9 @@ func main() {
 import (
     "fmt"
     "github.com/CUCyber/ja3transport"
-    "github.com/sari3l/requests"
-    "github.com/sari3l/requests/ext"
-    "github.com/sari3l/requests/types"
+    "github.com/cvelab/requests"
+    "github.com/cvelab/requests/ext"
+    "github.com/cvelab/requests/types"
     "net/http"
     "reflect"
 )
@@ -91,10 +91,10 @@ func modifyJa3Fingerprint(client any) (error, any) {
 ```go
 import (
     "fmt"
-    "github.com/sari3l/requests"
-    "github.com/sari3l/requests/ext"
-    "github.com/sari3l/requests/tools"
-    "github.com/sari3l/requests/types"
+    "github.com/cvelab/requests"
+    "github.com/cvelab/requests/ext"
+    "github.com/cvelab/requests/tools"
+    "github.com/cvelab/requests/types"
 )
 
 func main() {
@@ -116,10 +116,10 @@ func main() {
 ```go
 import (
     "fmt"
-    "github.com/sari3l/requests"
-    "github.com/sari3l/requests/ext"
-    "github.com/sari3l/requests/tools"
-    "github.com/sari3l/requests/types"
+    "github.com/cvelab/requests"
+    "github.com/cvelab/requests/ext"
+    "github.com/cvelab/requests/tools"
+    "github.com/cvelab/requests/types"
 )
 
 func main() {
@@ -133,7 +133,7 @@ func main() {
         "Accept-Language": "zh-CN,zh;q=0.9",
         "Connection": "close",
     }
-	
+ 
     hooks := types.HooksDict{
     "request": []types.Hook{tools.HookCloudFlareWorkFunc("https://delicate-xxx.sonymouse.workers.dev", types.Dict{
                 "Px-Token": "mysecuretoken", // 自定义安全验证头
@@ -141,7 +141,7 @@ func main() {
                 "Px-IP": "1,2,3,4",
         })},
     }
-	
+ 
     resp := requests.Get("https://www.google.com", ext.Headers(headers), ext.Hooks(hooks))
     fmt.Println(resp.Html)
 }
@@ -161,8 +161,8 @@ import (
     "github.com/chromedp/cdproto/input"
     "github.com/chromedp/cdproto/network"
     "github.com/chromedp/chromedp"
-    "github.com/sari3l/requests"
-    "github.com/sari3l/requests/ext"
+    "github.com/cvelab/requests"
+    "github.com/cvelab/requests/ext"
     "io/ioutil"
     "strings"
     "time"
@@ -230,10 +230,10 @@ func download(url string) {
 
 ```go
 import (
-	"github.com/sari3l/requests"
-	"github.com/sari3l/requests/ext"
-	"github.com/sari3l/requests/tools"
-	"github.com/sari3l/requests/types"
+ "github.com/cvelab/requests"
+ "github.com/cvelab/requests/ext"
+ "github.com/cvelab/requests/tools"
+ "github.com/cvelab/requests/types"
 )
 
 func main() {
