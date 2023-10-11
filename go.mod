@@ -12,9 +12,9 @@ require (
 	github.com/jinzhu/copier v0.3.5
 	github.com/pkg/errors v0.9.1
 	github.com/tidwall/gjson v1.14.1
-	golang.org/x/net v0.7.0
-	golang.org/x/term v0.5.0
-	golang.org/x/text v0.7.0
+	golang.org/x/net v0.17.0
+	golang.org/x/term v0.13.0
+	golang.org/x/text v0.13.0
 )
 
 require (
@@ -27,6 +27,6 @@ require (
 	github.com/refraction-networking/utls v0.0.0-20200820030103-33a29038e742 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
-	golang.org/x/crypto v0.1.0 // indirect
-	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/crypto v0.14.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
 )
